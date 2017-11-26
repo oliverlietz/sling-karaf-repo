@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://gitbox.apache.org/repos/asf/" revision="master"/>
+  <remote name="oliverlietz" fetch="https://github.com/oliverlietz/" revision="master"/>
+  <project path="org.apache.sling.karaf-configs" name="sling-org-apache-sling-karaf-configs" remote="origin"/>
+  <project path="org.apache.sling.karaf-distribution" name="sling-org-apache-sling-karaf-distribution" remote="origin"/>
+  <project path="org.apache.sling.karaf-features" name="sling-org-apache-sling-karaf-features" remote="origin"/>
+  <project path="org.apache.sling.karaf-integration-tests" name="sling-org-apache-sling-karaf-integration-tests" remote="origin"/>
+  <project path="org.apache.sling.karaf-launchpad-oak-tar-integration-tests" name="sling-org-apache-sling-karaf-launchpad-oak-tar-integration-tests" remote="origin"/>
+  <project path="." name="sling-karaf-builder" remote="oliverlietz"/>
+</manifest>
